@@ -72,9 +72,9 @@
         float:left;
        
     }
-    img{
-        height:300px;
-         width: 300px;
+    #image{
+        height:500px;
+         width:500px;
         margin:152px 185px;
         border:2px solid wheat;
         border-radius:90%;
@@ -96,6 +96,15 @@
         color:black;
         transform: scale(1.5);
     }
+    .contactimg{
+        display:inline;
+        height:50px;
+        width:50px;
+    }
+    .links{
+        position: fixed;
+        bottom:0;
+    }
     </style>
 </head>
 <body>
@@ -114,14 +123,21 @@
                 </div>
             </ul>
         </nav>
-     <div class="container">
-         <div class="para">
-         <p class="texts" id="hello">Hi!</p>
-         <p class="texts" id="neeya">I am Neeya Vaidya.</p>
-         <p class="texts" style="color:cadetblue">Web Developer❤</p>
-         <input type="button" value="Explore&#8594;" class="texts" id="button">
-         </div>
-         <img src="https://wallpapercave.com/wp/wp5405272.jpg" alt="This is a picture." align="right">
-     </div>
+        <div class="container">
+            <div class="para">
+                <p class="texts" id="hello">Hi!</p>
+                <p class="texts" id="neeya">I am Neeya Vaidya.</p>
+            <p class="texts" style="color:cadetblue">Web Developer❤</p>
+            <input type="button" value="Explore&#8594;" class="texts" id="button">
+        </div>
+            <img src="https://i.pinimg.com/originals/2c/55/df/2c55dfbb99703261cdf22a315b5f32fe.jpg" alt="This is a picture." align="right" id="image">
+         <div class="links">
+            <p class="contact" style="font-size:30px">Contact us:</p>
+            <a href="https://www.google.com" target="_blank"><img src="https://i.pinimg.com/originals/19/6a/57/196a5770e29bc190713415dc438e5488.jpg" alt="google" class="contactimg"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="https://i.pinimg.com/736x/01/65/1c/01651c004dc80098aa077c2ca729af1b.jpg" alt="facebook" class="contactimg"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="https://i.pinimg.com/originals/bd/c5/d8/bdc5d81a5ddb44c0a6ddac8e0c32d266.jpg" alt="instagram" class="contactimg"></a>
+            <a href="https://www.pinterest.com" target="_blank"><img src="https://i.pinimg.com/originals/06/79/45/067945760e6c06ed011ef0ea7d5d7495.jpg" alt="pinterest" class="contactimg"></a>
+        </div>
+    </div>
 </body>
 </html>
